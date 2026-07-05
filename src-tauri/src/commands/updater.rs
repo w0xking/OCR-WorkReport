@@ -14,7 +14,7 @@ use tauri::{AppHandle, Emitter, State};
 use tauri_plugin_updater::UpdaterExt;
 
 const GITHUB_LATEST_RELEASE_API: &str =
-    "https://api.github.com/repos/w0xking/Work-Review/releases/latest";
+    "https://api.github.com/repos/w0xking/OCR-WorkReport/releases/latest";
 
 const GITHUB_LATEST_RELEASE_PAGE: &str = "https://github.com/w0xking/OCR-WorkReport/releases/latest";
 
