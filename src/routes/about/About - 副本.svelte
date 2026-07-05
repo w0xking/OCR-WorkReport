@@ -43,7 +43,7 @@
   }
 
   async function openGitHub() {
-    await open('https://github.com/w0xking/Work-Review');
+    await open('https://github.com/w0xking/OCR-WorkReport');
   }
 
   async function openDataDir() {
