@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src-tauri/icons/icon.png" width="100" alt="Work Review">
+  <img src="src-tauri/icons/icon.png" width="100" alt="Work Report">
 </p>
 
-<h1 align="center">Work Review</h1>
+<h1 align="center">Work Report</h1>
 
 <p align="center">
   <strong>本地优先的个人工作回顾工具：自动记录上下文，帮你复盘和生成日报。</strong>
@@ -23,11 +23,11 @@
 
 <p align="center">
   <a href="https://github.com/w0xking/OCR-WorkReport/releases/latest">
-    <img src="https://img.shields.io/github/v/release/wm94i/Work-Review?style=flat-square&color=blue" alt="Release">
+    <img src="https://img.shields.io/github/v/release/w0xking/OCR-WorkReport?style=flat-square&color=blue" alt="Release">
   </a>
   <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/%F0%9F%94%92%20all%20data%20local-green?style=flat-square" alt="All Data Local">
-  <img src="https://img.shields.io/github/license/wm94i/Work-Review?style=flat-square" alt="License">
+  <img src="https://img.shields.io/github/license/w0xking/OCR-WorkReport?style=flat-square" alt="License">
 </p>
 
 ---
@@ -314,11 +314,11 @@ Authorization: Bearer <token>
 
 ```bash
 # 获取今日时间线
-curl -H "Authorization: Bearer $(cat ~/work-review/localhost_api_token.txt)" \
+curl -H "Authorization: Bearer $(cat ~/OCR-WorkReport/localhost_api_token.txt)" \
   http://127.0.0.1:47831/v1/timeline/2026-05-20
 
 # 生成日报
-curl -H "Authorization: Bearer $(cat ~/work-review/localhost_api_token.txt)" \
+curl -H "Authorization: Bearer $(cat ~/OCR-WorkReport/localhost_api_token.txt)" \
   "http://127.0.0.1:47831/v1/reports/generate?date=2026-05-20"
 ```
 
@@ -330,14 +330,14 @@ curl -H "Authorization: Bearer $(cat ~/work-review/localhost_api_token.txt)" \
 通过 stdio 协议将工作记录接入 AI 编码工具（Claude Code / Cursor / VS Code Copilot 等）。
 
 ```bash
-cargo build --release -p work-review-mcp-server
+cargo build --release -p OCR-WorkReport-mcp-server
 ```
 
 ```json
 {
   "mcpServers": {
-    "work-review": {
-      "command": "/path/to/work-review-mcp-server",
+    "OCR-WorkReport": {
+      "command": "/path/to/OCR-WorkReport-mcp-server",
       "env": {
         "WORK_REVIEW_DB_PATH": "/path/to/work_review.db",
         "WORK_REVIEW_CONFIG_PATH": "/path/to/config.json"
