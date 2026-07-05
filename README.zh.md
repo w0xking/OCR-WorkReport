@@ -366,47 +366,9 @@ npm run tauri:build  # 构建
 
 ---
 
-## 社区交流
-
-<p align="center"><strong>微信群</strong></p>
-
-<p align="center">
-  <img src="docs/group/wechat-group.png" alt="微信群" width="220" />
-</p>
-
-<p align="center"><small>如果二维码失效，关注下方公众号获取最新进群方式，或者进 TG 群吐槽</small></p>
-
----
-
-<p align="center"><strong>公众号</strong></p>
-
-<p align="center">
-  <img src="docs/group/official-account.png" alt="公众号" width="220" />
-</p>
-
----
-
-<p align="center">
-  <a href="https://t.me/+stYJLlkZbDYwM2Rl"><img src="https://img.shields.io/badge/Telegram-加入群组-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
-</p>
-
-## 致谢
-
-- 感谢 [linux.do](https://linux.do/) 社区的交流与讨论支持
-- 桌面化身 BongoCat 资源改编自 [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat) (MIT License)，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
-
 ## License
 
-[MIT](./LICENSE) © 2026 wm94i
+[MIT](./LICENSE) © 2026 
 
 ---
 
-## 历史星标
-
-<a href="https://www.star-history.com/#wm94i/Work-Review&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=wm94i/Work-Review&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=wm94i/Work-Review&type=Date" />
-    <img alt="Star History" src="https://api.star-history.com/svg?repos=wm94i/Work-Review&type=Date" width="720" />
-  </picture>
-</a>
